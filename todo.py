@@ -319,7 +319,7 @@ def handle_display_tasks(to_do_list: ToDoList):
     #Filter tasks
     view_options = to_do_list.get_tasks_view(sort_by, value)
     #Show tasks
-    to_do_list.display_tasks(view_options, title)
+    display_tasks(view_options, title)
 
 if __name__ == "__main__":
     to_do_list = ToDoList()
